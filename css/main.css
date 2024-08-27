@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    height: 100svh;
+    background-color:  hsl(0, 0%, 95%);
+
+}
+.all{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.orange,.green,.darkgreen{
+    height: 450px;
+    width: 250px;
+    padding: 50px;
+    
+   
+}
+.orange{
+    background-color:hsl(31, 77%, 52%);
+    border-top-left-radius: 8px;
+    
+    
+    
+}
+.green{
+    background-color:hsl(184, 100%, 22%);
+}
+.darkgreen{
+    background:hsl(179, 100%, 13%);
+    
+    border-bottom-right-radius: 8px;
+    
+}
+.big{
+    -webkit-text-fill-color:  hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px 0 30px 0;
+    font-size: 40px;
+}
+.small{
+    max-width: 450px;
+    font-weight: 400;
+ font-family: "Lexend Deca", sans-serif;
+ margin-bottom: 40px;
+ line-height: 30px;
+ -webkit-text-fill-color:  hsla(0, 0%, 100%, 0.75);
+ opacity: .7;
+}
+
+
+button{
+    align-items: center;
+    margin:20px 0 20px 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius:  24px;
+
+    border: solid  hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    
+    
+}
+.Orange{
+    -webkit-text-fill-color:hsl(31, 77%, 52%) ;
+    background-color:  hsl(0, 0%, 95%);
+
+}
+.Orange:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    -webkit-text-fill-color:  hsl(0, 0%, 95%);
+    border-color:  hsl(0, 0%, 95%); 
+}
+.Green{
+    -webkit-text-fill-color:hsl(184, 100%, 22%) ;
+    background-color:  hsl(0, 0%, 95%);
+}
+.Green:hover{
+    background-color:hsl(184, 100%, 22%) ;
+    -webkit-text-fill-color:  hsl(0, 0%, 95%);
+    border-color:  hsl(0, 0%, 95%);  
+}
+.Dark{
+ -webkit-text-fill-color: hsl(179, 100%, 13%) ;
+    background-color:  hsl(0, 0%, 95%);
+}
+.Dark:hover{
+     background-color: hsl(179, 100%, 13%) ;
+    -webkit-text-fill-color:  hsl(0, 0%, 95%);
+    border-color:  hsl(0, 0%, 95%); 
+}
+@media(max-width:600px){
+    .all{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .orange{
+        
+        border-top-right-radius: 8px;
+    }
+    .darkgreen{
+        border-bottom-left-radius: 8px;
+       
+        margin-bottom: 30px;
+    }
+}
+@media (min-width:601px){
+.orange{
+   border-bottom-left-radius: 8px;
+    
+    
+}
+.green{
+    background-color:hsl(184, 100%, 22%);
+}
+.darkgreen{
+    
+    border-top-right-radius: 8px;
+   
+    
+}
+}
